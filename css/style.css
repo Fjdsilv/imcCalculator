@@ -1,0 +1,161 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+html,body{
+	font-family:arial;
+	background-image:linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url(body.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	width:100%;
+}
+
+body{
+	padding-top:300px;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:#CAD3C8;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:#CAD3C8;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color:#CAD3C8;
+}
+
+*:focus{
+	outline:none;
+}
+
+h1{
+	margin:0 auto;
+	padding:15px;
+	text-align:center;
+	font-size:50px;
+	color:#55E6C1;
+	width:500px;
+	border:3px solid #000;
+	border-radius:3px;
+}
+
+label{
+	display:block;
+	margin-top:10px;
+	color:#2C3A47;
+	font-size:22px;
+}
+
+input{
+	margin-top:10px;
+}
+
+input[type="text"]{
+	width:100%;
+	height:55px;
+	border:1px solid #CAD3C8;
+	border-radius:3px;
+	padding:10px;
+	font-size:18px;
+	background-color:#2C3A47;
+	color:#fff;
+}
+
+.fxbox{
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:10px;
+	width:100%;
+	height:55px;
+	border:1px solid #CAD3C8;
+	border-radius:3px;
+	padding:10px;
+	font-size:18px;
+	background-color:#2C3A47;
+	color:#CAD3C8;
+}
+
+.fxbox label{
+	margin-top:7px;
+	display:inline-block;
+	text-align:center;
+	color:#CAD3C8;
+	font-size:20px;
+}
+
+input[type="radio"]{
+	margin-top:8px;
+	display:inline-block;
+	width:25%;
+	height:20px;
+}
+
+
+.fxbox2{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between
+}
+
+input[type="button"]:link,
+input[type="button"]:visited,
+input[type="button"]{
+	width:49%;
+	height:65px;
+	border-radius:3px;
+	border:1px solid #CAD3C8;
+	background-color:#FC427B;
+	font-size:20px;
+	color:#2C3A47;
+	cursor:pointer;
+	transition:all .3s;
+}
+
+
+input[type="button"]:hover,
+input[type="button"]:active{
+	background-color:#fb2164;
+}
+
+
+.formBox{
+	width:30%;
+	margin:100px auto 0;
+	background-color:#55E6C1;
+	padding:20px;
+	border-radius:3px;
+}
+
+.formResult{
+	width:30%;
+	height:200px;
+	margin:20px auto 0;
+	background-color:#55E6C1;
+	padding:20px;
+	border-radius:3px;
+
+}
+
+h2,h3,p{
+	text-align:center;
+}
+
+p{
+	font-size:20px;
+}
+
+footer p{
+	padding-top:50px;
+	text-align:center;
+	font-size:20px;
+	color:#CAD3C8;
+
+}

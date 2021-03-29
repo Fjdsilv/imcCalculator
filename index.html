@@ -1,0 +1,50 @@
+<!DOCTYPE Html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-compatible" content="ie=compatible">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Calulator BMI - Version 1.0</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>		
+	<h1>Calculator BMI</h1>
+	<div class="formBox">
+		<form action="">
+		<label for="">Name</label>
+		<div>
+			<input type="text" placeholder="Hillary Doe" id="userName" required>
+		</div>
+		<label for="">Gender</label>
+		<div class="fxbox">
+			<label for="">Male</label>
+			<input type="radio" name="gender" id="male" checked>
+			<label for="">Famele</label>
+			<input type="radio" name="gender" id="famele">
+		</div>
+		<label for="">Weight (Kg)</label>
+		<div>
+			<input type="text" placeholder="e.g 75" id="userWeight">
+		</div>
+		<label for="">Height (Cm)</label>
+		<div>
+			<input type="text" placeholder="e.g. 175" id="userHeight">
+		</div>
+		<div class="fxbox2">
+			<input type="button" value="Calculate" id="btn_calc">
+			<input type="button" value="Restart" id="btn_reset">
+		</div>
+	</form>	
+	</div>
+	<div class="formResult">
+		<h2 id="showWeight"></h2>
+		<h3 id="showBmi"></h3>
+		<p id="showInfo"></p>
+	</div>
+	<footer>
+		<p>Version 1.0</p>
+	</footer>
+
+	<script src="js/script.js"></script>
+	</body>	
+</html>
